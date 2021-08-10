@@ -2,6 +2,20 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import components from './components'
+import { Button, Tabbar, TabbarItem, Tab, Tabs } from 'vant'
+
+const _components = [
+  components,
+  Button,
+  Tabbar,
+  TabbarItem,
+  Tab, Tabs,
+] 
+
+_components.forEach(item => {
+  Vue.use(item)
+})
 
 Vue.config.productionTip = false
 

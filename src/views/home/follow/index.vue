@@ -1,0 +1,85 @@
+<template>
+  <div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>follow</div>
+    <div>end</div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Follow',
+  mounted () {
+    console.log('follow');
+  }
+}
+</script>
+
+<style>
+
+</style>
