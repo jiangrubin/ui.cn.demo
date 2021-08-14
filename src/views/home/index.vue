@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-tabs class="home-tabs" :line-width="16" color="#3399ff" sticky lazy-render>
+    <van-tabs class="home-tabs" :line-width="16" color="#3399ff" sticky lazy-render :offset-top="0">
       <van-tab v-for="item in tabs" :title="item.title" :key="item.id">
         <keep-alive>
           <component :is="item.name" />

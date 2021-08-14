@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1、图标/70px/学习/人物访谈/dark</title>
+    <g id="1、图标/70px/学习/人物访谈/dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14" transform="translate(15.000000, 14.000000)">
+            <path d="M5.91680778,25.8823529 L1.48659954,35.4774952 C0.329040251,37.9845887 1.42305385,40.9553767 3.93014731,42.112936 C5.56286712,42.8667851 7.47464833,42.6857555 8.93685127,41.6388435 L17.647601,35.402097 L17.647601,35.402097 L5.91680778,25.8823529 Z" id="Path-8" stroke="#3399FF" stroke-width="2.4" fill="#3399FF"></path>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="3.4" fill="#292934" cx="21.5686275" cy="18.1176471" r="18.1176471"></circle>
+            <path d="M0.972159806,18.8793844 C5.84005157,25.2400456 12.8569348,29.2323255 20.6576794,29.2323255 L20.6576794,29.2323255 C25.7779203,29.2323255 30.5604481,27.5123207 34.6192186,24.5315322" id="Path" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" transform="translate(17.795689, 24.055855) rotate(26.000000) translate(-17.795689, -24.055855) "></path>
+        </g>
+    </g>
+</svg>

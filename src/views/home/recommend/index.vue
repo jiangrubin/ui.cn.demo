@@ -2,7 +2,7 @@
   <div class="recommend">
     <transition-group tag="div" appear>
       <template v-for="item of 10">
-        <ui-found-card :key="item" style="margin-bottom: 8px;"></ui-found-card>
+        <ui-found-card @click.native="navigateTo" :key="item" style="margin-bottom: 8px;"></ui-found-card>
       </template>
     </transition-group>
   </div>
@@ -10,11 +10,16 @@
 
 <script>
 export default {
-  name: 'Recommend'
+  name: 'Recommend',
+  methods: {
+    navigateTo () {
+      this.$router.push({ name: 'WorksDetail' })
+    }
+  }
 }
 </script>
 
-<style>
+<style lang="less">
 .v-enter,
 .v-leave-to {
   opacity: 0;

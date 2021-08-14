@@ -34,7 +34,7 @@ export default {
 <style lang="less">
 .exp-card {
   display: flex;
-  background-color: #fff;
+  background-color: var(--card-background-color);
   padding: 14px 12px;
 }
 

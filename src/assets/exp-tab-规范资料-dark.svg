@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1、图标/70px/学习/规范资料-dark</title>
+    <g id="1、图标/70px/学习/规范资料-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="70px/规范资料" transform="translate(16.000000, 13.000000)" stroke-width="3.4">
+            <g id="Group-13">
+                <polyline id="Path-6" stroke="#FFFFFF" points="0 43 18.004567 4.36 35.28 43"></polyline>
+                <line x1="18.06" y1="0" x2="18.06" y2="8.4" id="Path-7" stroke="#FFFFFF"></line>
+                <circle id="Oval" stroke="#3399FF" fill="#3399FF" cx="18.06" cy="11.5" r="7.14"></circle>
+                <path d="M7,29.2528286 C10.492325,32.7980668 15.3737822,35 20.7756024,35 L20.7756024,35 C31.392944,35 40,26.4934102 40,16" id="Path" stroke="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

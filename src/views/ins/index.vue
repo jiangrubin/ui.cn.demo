@@ -2,16 +2,19 @@
   <div class="ins">
     <van-tabs class="ins-tabs" :line-width="16" color="#3399ff" sticky lazy-render>
       <van-tab v-for="item in tabs" :title="item.title" :key="item.id">
-        <!-- <keep-alive>
-          <component :is="item.name" />
-        </keep-alive> -->
+        <masonry-grid style="margin: 0 10px;" />
       </van-tab>
     </van-tabs>
   </div>
 </template>
 
 <script>
+import MasonryGrid from './components/masonry-grid'
+
 export default {
+  components: {
+    MasonryGrid
+  },
   data () {
     return {
       tabs: [
@@ -24,6 +27,9 @@ export default {
         { id: 6, title: '品牌', to: '/', name: 'Recommend' },
       ]
     }
+  },
+  mounted () {
+    
   }
 }
 </script>

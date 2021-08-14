@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1、图标/70px/学习/行业资讯-dark</title>
+    <g id="1、图标/70px/学习/行业资讯-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-16" transform="translate(4.000000, 14.000000)">
+            <g id="Group-15" stroke="#FFFFFF" stroke-width="3.4">
+                <ellipse id="Oval" transform="translate(30.666667, 23.000000) rotate(-26.000000) translate(-30.666667, -23.000000) " cx="30.6666667" cy="23" rx="28.1111111" ry="11.0740741"></ellipse>
+                <circle id="Oval" fill="#292934" cx="29.8148148" cy="21.2962963" r="19.5925926"></circle>
+                <path d="M4.98283283,22.4396189 C4.98283283,28.5556611 17.568606,33.513693 33.0939439,33.513693 L33.0939439,33.513693 C48.6192819,33.513693 61.2050551,28.5556611 61.2050551,22.4396189" id="Path" transform="translate(33.093944, 27.976656) rotate(-26.000000) translate(-33.093944, -27.976656) "></path>
+            </g>
+            <circle id="Oval" fill="#3399FF" cx="20.5185185" cy="22.2222222" r="3.4814815"></circle>
+            <circle id="Oval" fill="#3399FF" cx="27.2592593" cy="11.9259259" r="2.55555556"></circle>
+            <circle id="Oval" fill="#3399FF" cx="38.7592593" cy="15.7592593" r="2.12962963"></circle>
+        </g>
+    </g>
+</svg>

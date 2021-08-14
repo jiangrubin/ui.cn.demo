@@ -3,7 +3,7 @@
     <div class="ui-found-card-head">
       <div class="ui-found-card-head-content">
         <div class="ui-found-card-avatar">
-          <img src="https://imgavater.ui.cn/avatar/2/8/9/1/171982.png?imageMogr2/auto-orient/crop/!600x600a0a0/thumbnail/60x60" />
+          <img src="https://imgavater.ui.cn/avatar/2/8/9/1/171982.png" />
         </div>
         <div class="ui-found-card-name">MONK.REN</div>
         <div class="ui-found-card-tags"></div>
@@ -33,7 +33,7 @@ export default {
 
 <style lang="less">
 .ui-found-card {
-  background-color: #fff;
+  background-color: var(--card-background-color);
 }
 
 .ui-found-card-head {

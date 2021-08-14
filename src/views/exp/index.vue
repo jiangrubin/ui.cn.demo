@@ -3,7 +3,7 @@
     <van-tabs class="exp-tabs" :line-height="0">
       <van-tab v-for="(item, index) of tabs" :key="index">
         <template #title>
-          <img :src="item.iconPath" />
+          <ui-icon :src="item.iconPath" :dark-src="item.darkIconPath" />
           <div>{{ item.title }}</div>
         </template>
       </van-tab>
@@ -27,13 +27,18 @@ export default {
   data () {
     return {
       tabs: [
-        { title: '教程', iconPath: require('@/assets/exp-tab-教程.svg') },
-        { title: '经验/观点', iconPath: require('@/assets/exp-tab-经验观点.svg') },
-        { title: '规范/资料', iconPath: require('@/assets/exp-tab-规范资料.svg') },
-        { title: '人物访谈', iconPath: require('@/assets/exp-tab-人物访谈.svg') },
-        { title: '行业资讯', iconPath: require('@/assets/exp-tab-行业资讯.svg') },
-        { title: '设计趋势', iconPath: require('@/assets/exp-tab-设计趋势.svg') },
+        { title: '教程', iconPath: require('@/assets/exp-tab-教程.svg'), darkIconPath: require('@/assets/exp-tab-教程-dark.svg') },
+        { title: '经验/观点', iconPath: require('@/assets/exp-tab-经验观点.svg'), darkIconPath: require('@/assets/exp-tab-经验观点-dark.svg') },
+        { title: '规范/资料', iconPath: require('@/assets/exp-tab-规范资料.svg'), darkIconPath: require('@/assets/exp-tab-规范资料-dark.svg') },
+        { title: '人物访谈', iconPath: require('@/assets/exp-tab-人物访谈.svg'), darkIconPath: require('@/assets/exp-tab-人物访谈-dark.svg') },
+        { title: '行业资讯', iconPath: require('@/assets/exp-tab-行业资讯.svg'), darkIconPath: require('@/assets/exp-tab-行业资讯-dark.svg') },
+        { title: '设计趋势', iconPath: require('@/assets/exp-tab-设计趋势.svg'), darkIconPath: require('@/assets/exp-tab-设计趋势-dark.svg') },
       ]
+    }
+  },
+  computed: {
+    themeMode () {
+      return this.$store.getters.themeMode
     }
   }
 }

@@ -1,3 +1,44 @@
-// 覆盖 vant 样式变量
-@text-color: #333;
-// @image-preview-overlay-background-color: rgba(0, 0, 0, 0.8);
+:root {
+  --white: #fff;
+  --gray-1: #4E4C56;
+  --gray-2: #f8f8f8;
+  --dark-1: #292934;
+  --dark-2: #23232B;
+}
+
+// 覆盖 vant less 样式变量
+@text-color: var(--text-color);
+@tabbar-background-color: var(--card-background-color);
+@tabs-nav-background-color: var(--card-background-color);
+
+.theme-mode-light {
+  --text-color: var(--gray-1);
+  --background-color: var(--gray-2);
+  --card-background-color: var(--white);
+}
+
+.theme-mode-dark {
+  --text-color: var(--white);
+  --background-color: var(--dark-2);
+  --card-background-color: var(--dark-1);
+}
+
+#app[theme-mode=light] {
+  &:extend(.theme-mode-light);
+}
+
+#app[theme-mode=dark] {
+  &:extend(.theme-mode-dark);
+}
+
+@media (prefers-color-scheme: light) { 
+  :root {
+    &:extend(.theme-mode-light);
+  }
+}
+
+@media (prefers-color-scheme: dark) { 
+  :root {
+    &:extend(.theme-mode-dark);
+  }
+}

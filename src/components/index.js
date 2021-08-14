@@ -1,7 +1,9 @@
 import FoundCard from './FoundCard'
+import Icon from './Icon'
 
 const components = [
   FoundCard,
+  Icon
 ]
 
 const install = function (Vue) {
@@ -11,7 +13,8 @@ const install = function (Vue) {
 }
 
 export {
-  FoundCard
+  FoundCard,
+  Icon
 }
 
 export default {

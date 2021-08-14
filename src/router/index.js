@@ -12,6 +12,15 @@ const routes = [
     children: []
   },
   {
+    path: '/works-detail',
+    name: 'WorksDetail',
+    meta: {
+      hiddenTabbar: true,
+      transitionName: 'van-fade'
+    },
+    component: () => import(/* webpackChunkName: "works-detail" */ '../views/home/works-detail')
+  },
+  {
     path: '/exp',
     name: 'Exp',
     component: () => import(/* webpackChunkName: "exp" */ '../views/exp')
